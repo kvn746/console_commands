@@ -1,0 +1,4 @@
+.idea/
+/vendor/
+README.md
+composer.lock
