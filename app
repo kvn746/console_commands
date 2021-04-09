@@ -4,4 +4,8 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 
 $app = new \Symfony\Component\Console\Application('console application user data');
 
+
+
+$app->add(new \App\UserDataCommand());
+
 $app->run();
