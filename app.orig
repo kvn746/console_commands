@@ -6,9 +6,11 @@ $app = new \Symfony\Component\Console\Application('console application user data
 
 <<<<<<< HEAD
 $app->add(new \App\SayHelloCommand());
+$app->add(new \App\PrintStringCommand());
 =======
 
-$app->add(new \App\PrintStringCommand());
->>>>>>> second_command
+
+$app->add(new \App\UserDataCommand());
+>>>>>>> third_command
 
 $app->run();
